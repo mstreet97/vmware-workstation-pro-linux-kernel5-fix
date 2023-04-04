@@ -1,0 +1,1 @@
+cmd_/opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmnet-only/modules.order := {   echo /opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmnet-only/vmnet.ko; :; } | awk '!x[$$0]++' - > /opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmnet-only/modules.order

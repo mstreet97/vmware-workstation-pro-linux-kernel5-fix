@@ -1,0 +1,1 @@
+cmd_/opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmmon-only/vmmon.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmmon-only/vmmon.ko /opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmmon-only/vmmon.o /opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmmon-only/vmmon.mod.o;  true

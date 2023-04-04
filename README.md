@@ -1,3 +1,5 @@
 # vmware-workstation-pro-linux-kernel5-fix
 VMware Workstation Pro Linux kernel 5.x fixer
 When using VMware Workstation Pro (v16.2 in my case), on each kernel upgrade under linux kernel 5.x, vmware would then fail to rebuild and update kernel modules, preventing VMware to run properly. This script was made to automate the compilation and substitution of those kernel modules because I hate doing repetitively things manually. Feel free to use it, modify it, integrate it in a cronjob, whatever you see fit, but do so at your own risk: I won't be held responsible for eventual damage to your system, random things catching fire and alien invasions. Also please, reaad it first, as everything that's on the internet should be assumed to be malicious (it is not, in this case, but it needs privilege access...)
+
+This script work with the kernel modules for VMware 16.2 that are already compiled in the provided directory because that's the version I'm using. If you are using a different version of VMware, you will need their specific kernel modules, which can be compiled by following the process described in this repository: https://github.com/mkubecek/vmware-host-modules

@@ -1,0 +1,1 @@
+cmd_/opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmnet-only/Module.symvers := sed 's/\.ko$$/\.o/' /opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmnet-only/modules.order | scripts/mod/modpost -m -a  -o /opt/Maintenance/vmware-host-modules-workstation-16.2.0/vmnet-only/Module.symvers -e -i Module.symvers   -T -
